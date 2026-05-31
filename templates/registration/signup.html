@@ -1,0 +1,27 @@
+{% extends 'pages/base.html' %}
+{% load crispy_forms_tags %}
+
+{% block title %}
+    Sign Up
+{% endblock %}
+
+{% block content %}
+    <h1>Sign Up</h1>
+
+    <style>
+        #hint_id_password1,
+        #hint_id_password2,
+        .form-text,
+        small,
+        ul,
+        li {
+            color: white !important;
+        }
+    </style>
+
+    <form method="post">
+        {% csrf_token %}
+        {{ form|crispy }}
+        <input type="submit" value="Sign Up" class="btn btn-success">
+    </form>
+{% endblock %}

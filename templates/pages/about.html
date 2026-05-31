@@ -1,0 +1,35 @@
+{% extends 'pages/base.html' %}
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/about.css' %}">
+{% endblock %}
+
+{% block title %}
+About Me
+{% endblock %}
+
+{% block content %}
+<h1>About Me</h1>
+
+<p>
+    Hi, I'm Leomar. I am currently a student studying Full-Stack Development at San Diego State University.
+    I also work as a Help Desk Technician, where I provide technical support, troubleshoot computer issues,
+    and help users resolve technology-related problems.
+</p>
+
+<p>
+    I am passionate about web development, cybersecurity, and software development. I enjoy learning new
+    technologies, building projects, and improving my technical skills.
+</p>
+
+<p>
+    My goal is to grow as a software developer and create my own trading software someday. As technology
+    and artificial intelligence continue to evolve, I want to stay ahead of the curve by developing tools
+    that combine automation, data analysis, and innovative technology to solve real-world problems.
+</p>
+{% endblock %}
+
+{% block js %}
+<script src="{% static 'js/about.js' %}"></script>
+{% endblock %}

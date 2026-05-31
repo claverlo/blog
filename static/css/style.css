@@ -1,0 +1,175 @@
+body{
+    background: #0f172a;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+
+.navbar{
+    background-color: #111827 !important;
+    padding: 18px;
+    border-bottom: 2px solid #1e293b;
+}
+
+.navbar-brand{
+    color: #38bdf8 !important;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-item form{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item button{
+    background: none;
+    border: none;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link{
+    color: white !important;
+    font-size: 18px;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    color: #38bdf8 !important;
+}
+
+.container{
+    margin-top: 50px;
+}
+
+.card{
+    background-color: #1e293b !important;
+    border: 1px solid #334155;
+    border-radius: 18px;
+    padding: 25px;
+    margin-bottom: 25px;
+    transition: 0.3s;
+    box-shadow: 0px 4px 20px rgba(0,0,0,0.3);
+}
+
+.card:hover{
+    transform: translateY(-4px);
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.5);
+}
+
+.card-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.card-title a{
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+.card-title a:hover{
+    color: #7dd3fc;
+}
+
+.card-text{
+    color: #d1d5db;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.btn{
+    border-radius: 10px;
+    padding: 10px 18px;
+    font-weight: bold;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-primary{
+    background-color: #2563eb !important;
+}
+
+.btn-primary:hover{
+    background-color: #3b82f6 !important;
+    transform: scale(1.05);
+}
+
+.btn-danger{
+    background-color: #dc2626 !important;
+}
+
+.btn-danger:hover{
+    background-color: #ef4444 !important;
+    transform: scale(1.05);
+}
+
+input,
+textarea{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px !important;
+    border-radius: 10px;
+    border: 1px solid #475569;
+    background-color: #0f172a;
+    color: white;
+}
+
+input:focus,
+textarea:focus{
+    outline: none;
+    border-color: #38bdf8;
+    box-shadow: 0px 0px 10px rgba(56,189,248,0.5);
+}
+
+.helptext,
+.helptext li,
+ul,
+li {
+    color: white !important;
+    opacity: 1 !important;
+    font-size: 14px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.helptext {
+    color: white !important;
+}
+
+.helptext ul {
+    color: white !important;
+}
+
+.helptext li {
+    color: white !important;
+}
+
+ul.errorlist,
+ul.errorlist li {
+    color: #ff6b6b !important;
+}
+
+small,
+.form-text,
+.text-muted,
+ul,
+li {
+    color: white !important;
+}
+
+
+div[class*="text"] {
+    color: white !important;
+}
